@@ -28,7 +28,7 @@ import net.minecraft.launchwrapper.LaunchClassLoader;
  */
 public interface LoadableMod<L> extends Loadable<L>, Injectable
 {
-    static final String METADATA_FILENAME = "litemod.json";
+    static final String METADATA_FILENAME = "aqrmod.json";
 
     /**
      * Get the mod systems declared in the jar metadata

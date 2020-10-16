@@ -17,7 +17,7 @@ public final class Artefact
     /**
      * Regex for matching valid specifiers
      */
-    private static final Pattern PATTERN = Pattern.compile("^([^:]+):([^:]+):([^:@]+?)(:([^:@]+?))?(@(zip|jar|litemod))?$"); 
+    private static final Pattern PATTERN = Pattern.compile("^([^:]+):([^:]+):([^:@]+?)(:([^:@]+?))?(@(zip|jar|aqr))?$"); 
     
     /**
      * Artefact group id

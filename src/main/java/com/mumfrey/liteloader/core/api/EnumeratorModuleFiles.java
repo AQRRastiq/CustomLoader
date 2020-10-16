@@ -148,14 +148,14 @@ public abstract class EnumeratorModuleFiles implements FilenameFilter, Enumerato
     {
         fileName = fileName.toLowerCase();
 
-        if (fileName.endsWith(".litemod.zip"))
+        if (fileName.endsWith(".aqr.zip"))
         {
-            LiteLoaderLogger.warning("Found %s with unsupported extension .litemod.zip."
-                    + " Please change file extension to .litemod to allow this file to be loaded!", fileName);
+            LiteLoaderLogger.warning("Found %s with unsupported extension .aqr.zip."
+                    + " Please change file extension to .aqr to allow this file to be loaded!", fileName);
             return true;
         }
 
-        return fileName.endsWith(".litemod") || fileName.endsWith(".jar");
+        return fileName.endsWith(".aqr") || fileName.endsWith(".jar");
     }
 
     /**
